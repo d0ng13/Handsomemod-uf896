@@ -1,7 +1,8 @@
 *[`README.md`](README.md) last updated on: 2022-09-25.*
 
 [![HandsomeMod logo](img/logo.thumb.png)](img/logo.png)  
-[![00_-_topside.jpg](img/uf896/00_-_topside.jpg.thumb.jpg 00_-_topside.jpg)](img/uf896/00_-_topside.jpg)
+[![00_-_topside.jpg](img/uf896/00_-_topside.jpg.thumb.jpg "00_-_topside.jpg")](img/uf896/00_-_topside.jpg)
+[![](img/uf896/00_-_topside.jpg.thumb.jpg)](img/uf896/00_-_topside.jpg)
 
 # HandsomeMod router operating system for "OpenStick" UF896.
 
