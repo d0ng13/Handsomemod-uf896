@@ -1,8 +1,7 @@
-*`[README.md](README.md)` last updated on: 2022-09-25.*
+*[`README.md`](README.md) last updated on: 2022-09-25.*
 
-[![HandsomeMod logo](img/logo.thumb.png)](img/logo.png)
+<p align="center">[![HandsomeMod logo](img/logo.thumb.png)](img/logo.png)</p>
 
-<p align="center"><img src="img/logo.png" /></p>
 
 # HandsomeMod router operating system for "OpenStick" UF896.
 
@@ -13,6 +12,7 @@ It is an operating system based on [OpenWrt](http://openwrt.org/), but with many
 This repository here is especially targeted at supporting the UF896 LTE/WiFi routers which come in the form factor of an USB stick. A discussion about this devices with links to further projects can be found [here on the OpenWrt forum](https://forum.openwrt.org/t/131712).
 
 <details><summary>Photographs (*click* to open):</summary>
+
 [![00_-_topside.jpg](img/uf896/00_-_topside.jpg.thumb.jpg 00_-_topside.jpg)](img/uf896/00_-_topside.jpg) [![01_-_PCB_SoCside.jpg](img/uf896/01_-_PCB_SoCside.jpg.thumb.jpg 01_-_PCB_SoCside.jpg)](img/uf896/01_-_PCB_SoCside.jpg) [![02_-_PCB_SIMside.jpg](img/uf896/02_-_PCB_SIMside.jpg.thumb.jpg 02_-_PCB_SIMside.jpg)](img/uf896/02_-_PCB_SIMside.jpg) [![03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg](img/uf896/03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg.thumb.jpg 03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg)](img/uf896/03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg) [![04_-_PCB_SIMside-with-antenna-attached.jpg](img/uf896/04_-_PCB_SIMside-with-antenna-attached.jpg.thumb.jpg 04_-_PCB_SIMside-with-antenna-attached.jpg)](img/uf896/04_-_PCB_SIMside-with-antenna-attached.jpg) [![05_-_bottomside.jpg](img/uf896/05_-_bottomside.jpg.thumb.jpg 05_-_bottomside.jpg)](img/uf896/05_-_bottomside.jpg) [![06_-_cover_open_typesticker.jpg](img/uf896/06_-_cover_open_typesticker.jpg.thumb.jpg 06_-_cover_open_typesticker.jpg)](img/uf896/06_-_cover_open_typesticker.jpg)
 </details>
 
