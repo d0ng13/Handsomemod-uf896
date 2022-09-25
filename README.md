@@ -24,7 +24,7 @@ In general, the [building instructions from the OpenWrt project](https://openwrt
 To build the firmware for the UF896 from this repository, use the following steps:
 
 1. Make sure you have the [OpenWrt build requirements](https://openwrt.org/docs/guide-developer/toolchain/install-buildsystem) fulfilled.  
-   *On [Artix Linux](http://artixlinux.org) and Artix based distributions, installing the [AUR package "`openwrt-devel`"](https://aur.archlinux.org/packages/openwrt-devel) does pull in all needed dependencies.*
+   *On [Arch Linux](http://archlinux.org) and Arch based distributions, installing the [AUR package "`openwrt-devel`"](https://aur.archlinux.org/packages/openwrt-devel) does pull in all needed dependencies.*
 2. Clone this repository: `git clone https://github.com/dreirund/Handsomemod-uf896.git`.
 3. `cd` into the clone: `cd Handsomemod-uf896`.
 4. Generate `feeds.conf` from the default: `cp feeds.conf.default feeds.conf`.
