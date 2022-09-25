@@ -15,7 +15,7 @@ This repository here is especially targeted at supporting the UF896 LTE/WiFi rou
 [![00_-_topside.jpg](img/uf896/00_-_topside.jpg.thumb.jpg "00_-_topside.jpg")](img/uf896/00_-_topside.jpg) [![01_-_PCB_SoCside.jpg](img/uf896/01_-_PCB_SoCside.jpg.thumb.jpg "01_-_PCB_SoCside.jpg")](img/uf896/01_-_PCB_SoCside.jpg) [![02_-_PCB_SIMside.jpg](img/uf896/02_-_PCB_SIMside.jpg.thumb.jpg "02_-_PCB_SIMside.jpg")](img/uf896/02_-_PCB_SIMside.jpg) [![03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg](img/uf896/03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg.thumb.jpg "03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg")](img/uf896/03_-_PCB_SoCside-with-antenna-and-heatsink-attached.jpg) [![04_-_PCB_SIMside-with-antenna-attached.jpg](img/uf896/04_-_PCB_SIMside-with-antenna-attached.jpg.thumb.jpg "04_-_PCB_SIMside-with-antenna-attached.jpg")](img/uf896/04_-_PCB_SIMside-with-antenna-attached.jpg) [![05_-_bottomside.jpg](img/uf896/05_-_bottomside.jpg.thumb.jpg "05_-_bottomside.jpg")](img/uf896/05_-_bottomside.jpg) [![06_-_cover_open_typesticker.jpg](img/uf896/06_-_cover_open_typesticker.jpg.thumb.jpg "06_-_cover_open_typesticker.jpg")](img/uf896/06_-_cover_open_typesticker.jpg)
 </details>
 
-Is is based on [OpenWrt 21.02](https://openwrt.org/releases/21.02/) and heavily modified. It uses a [Linux kernel](https://kernel.org/) version 5.10.33.
+It is based on [OpenWrt 21.02](https://openwrt.org/releases/21.02/) and heavily modified. It uses a [Linux kernel](https://kernel.org/) version 5.10.33.
 
 ## Building
 
