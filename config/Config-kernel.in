@@ -24,6 +24,27 @@ config KERNEL_PRINTK
 	bool "Enable support for printk"
 	default y
 
+config KERNEL_ARM_MODULE_PLTS
+	bool "Use PLTs to allow module memory to spill over into vmalloc area (ARM32)"
+	depends on arm
+	default n
+	help
+	  Allocate PLTs when loading modules so that jumps and calls whose targets are too far away for their relative offsets to be encoded in the instructions themselves can be bounced via veneers in the module's PLT. This allows modules to be allocated in the generic vmalloc area after the dedicated module memory area has been exhausted. The modules will use slightly more memory, but after rounding up to page size, the actual memory footprint is usually the same.
+	  Disabling this is usually safe for small single-platform configurations.
+	  If unsure, say y.
+	  This can be needed if you cannot load more modules because of some module memory has exhausted.
+
+config KERNEL_ARM64_MODULE_PLTS
+	bool "Use PLTs to allow module memory to spill over into vmalloc area (ARM64)"
+	depends on aarch64
+	default n
+	help
+	  Allocate PLTs when loading modules so that jumps and calls whose targets are too far away for their relative offsets to be encoded in the instructions themselves can be bounced via veneers in the module's PLT. This allows modules to be allocated in the generic vmalloc area after the dedicated module memory area has been exhausted. The modules will use slightly more memory, but after rounding up to page size, the actual memory footprint is usually the same.
+	  When running with address space randomization (KASLR), the module region itself may be too far away for ordinary relative jumps and calls, and so in that case, module PLTs are required and cannot be disabled. Specific errata workaround(s) might also force module PLTs to be enabled (ARM64_ERRATUM_843419).
+	  Disabling this is usually safe for small single-platform configurations.
+	  If unsure, say y.
+	  This can be needed if you cannot load more modules because of some module memory has exhausted.
+
 config KERNEL_CRASHLOG
 	bool "Crash logging"
 	depends on !(arm || powerpc || sparc || TARGET_uml || i386 || x86_64)
