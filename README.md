@@ -1,4 +1,4 @@
-*[`README.md`](README.md) last updated on: 2022-09-25.*
+*[`README.md`](README.md) last updated on: 2022-09-29.*
 
 [![HandsomeMod logo](img/logo.thumb.png)](img/logo.png) [![00_-_topside.jpg](img/uf896/00_-_topside.jpg.thumb.jpg "00_-_topside.jpg")](img/uf896/00_-_topside.jpg)
 
@@ -8,7 +8,9 @@ This repository is a fork of the ["`uf896`"-branch](https://github.com/kirdesde/
 
 It is an operating system based on [OpenWrt](http://openwrt.org/), but with many changes and additions.
 
-This repository here is especially targeted at supporting the UF896 LTE/WiFi routers which come in the form factor of an USB stick. A discussion about this devices with links to further projects can be found [here on the OpenWrt forum](https://forum.openwrt.org/t/131712).
+As "[kirdesde/Handsomemod](https://github.com/kirdesde/Handsomemod/)", this repository too is especially targeted at supporting the UF896 LTE/WiFi routers which come in the form factor of an USB stick. A discussion about this devices with links to further projects can be found [here on the OpenWrt forum](https://forum.openwrt.org/t/131712).
+
+The purpose of this repository is to have a place for my modifications and fixes I apply for the UF896 support.
 
 <details><summary>Photographs (*click* to open):</summary>
 
