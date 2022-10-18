@@ -53,6 +53,8 @@ To build the firmware for the UF896 from this repository, use the following step
 8. If you want, configure options to your liking now: `make menuconfig`.
 9. Build the firmware image: `make`.
 
+You can also use [example `.config`](sample/.config) (that is my `.config` I use on the device) and [example `feeds.conf`](sample/feeds.conf) from the [`sample/`](sample/) directory.
+
 For more build options and troubleshooting, refer to the [OpenWrt build system usage](https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem) and other [documentation at OpenWrt.org](https://openwrt.org/docs/).
 
 
