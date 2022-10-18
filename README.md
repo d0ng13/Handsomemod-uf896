@@ -65,10 +65,11 @@ Carry out the following from a computer where the device is connected to via USB
    `fastboot devices`  
    should return nothing.
 2. Connect the device, and check that  
-   `fastboot devices`
+   `fastboot devices`  
    now returns something which looks similar to  
-   `0ec38c91 fastboot`  
-   ``  
+   ```
+   0ec38c91 fastboot
+   ```  
    (The ID can vary).
 
 If that is given, proceed:
@@ -76,36 +77,22 @@ If that is given, proceed:
 ### Install instructions:
 
 1. Erase boot partition:  
-   ```
-   fastboot erase boot
-   ```
+   `fastboot erase boot`
 2. Write boot image:  
-   ```
-   fastboot flash boot handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-boot.img
-   ```
+   `fastboot flash boot handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-boot.img`
 3. Erase rootfs partition:  
-   ```
-   fastboot erase rootfs
-   ```
+   `fastboot erase rootfs`
 4. Write system image:  
-   ```
-   fastboot flash rootfs handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-system.img
-   ```
+   `fastboot flash rootfs handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-system.img`
 5. Reboot:  
-   ```
-   fastboot reboot
-   ```
+   `fastboot reboot`
 6. "OpenWrt" (HandsomeMod) should boot now (red led is blinking).
-7. push the sysupgrade image to the device (this is imported, as this sets up the loop device for the rootfs overlay)
-   * `adbd` is part of the handsome feeds utils package, **Make sure you have `CONFIG_PACKAGE_android-tools-adbd=y`!**
-   ```
-   adb push handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin /tmp
-   ```
-8. Execute sysupgrade:
-   ```
-   adb shell
-   sysupgrade /tmp/handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin
-   ```
+7. push the sysupgrade image to the device (this is imported, as this sets up the loop device for the rootfs overlay)  
+   *(**Note:** `adbd` is part of the handsome feeds utils package, **Make sure you have `CONFIG_PACKAGE_android-tools-adbd=y`!**)*  
+   `adb push handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin /tmp`
+8. Execute sysupgrade:  
+   `adb shell`  
+   `sysupgrade /tmp/handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin`
 9. After reboot you should have a working openwrt incl. overlay fs
 10. Thanks to the usb gadget mode the device has ethernet connectivity over usb
 11. Please note, it's also part of the handsome feeds utils to setup and activate a default wifi AP (unencrypted). You can disable this after the last reboot (or disable it in the build config)
