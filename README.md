@@ -19,6 +19,8 @@ The purpose of this repository is to have a place for my modifications and fixes
 
 It is based on [OpenWrt 21.02](https://openwrt.org/releases/21.02/) and heavily modified. It uses a [Linux kernel](https://kernel.org/) version 5.10.33.
 
+[TOC]
+
 ## Building
 
 In general, the [building instructions from the OpenWrt project](https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem) apply, but different repositories are used.
