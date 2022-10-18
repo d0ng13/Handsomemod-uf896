@@ -61,20 +61,14 @@ Carry out the following from a computer where the device is connected to via USB
 
 ### Pre-cautions work:
 
-1. Before conneting the device, make sure that there is currently no other device in fastboot mode connected, otherwise you can damage the other device:
-   ```
-   fastboot devices
-   ```
+1. Before conneting the device, make sure that there is currently no other device in fastboot mode connected, otherwise you can damage the other device:  
+   `fastboot devices`  
    should return nothing.
-2. Connect the device, and check that
-   ```
-   fastboot devices
-   ```
-   now returns something which looks similar to
-   ```
-   0ec38c91 fastboot
-
-   ```
+2. Connect the device, and check that  
+   `fastboot devices`
+   now returns something which looks similar to  
+   `0ec38c91 fastboot`  
+   ``  
    (The ID can vary).
 
 If that is given, proceed:
@@ -108,10 +102,10 @@ If that is given, proceed:
    adb push handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin /tmp
    ```
 8. Execute sysupgrade:
-  ```
-  adb shell
-  sysupgrade /tmp/handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin
-  ```
+   ```
+   adb shell
+   sysupgrade /tmp/handsomemod-msm89xx-msm8916-openstick_uf896-squashfs-sysupgrade.bin
+   ```
 9. After reboot you should have a working openwrt incl. overlay fs
 10. Thanks to the usb gadget mode the device has ethernet connectivity over usb
 11. Please note, it's also part of the handsome feeds utils to setup and activate a default wifi AP (unencrypted). You can disable this after the last reboot (or disable it in the build config)
