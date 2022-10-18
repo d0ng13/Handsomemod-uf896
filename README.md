@@ -2,6 +2,7 @@
 
 [![HandsomeMod logo](img/logo.thumb.png)](img/logo.png) [![00_-_topside.jpg](img/uf896/00_-_topside.jpg.thumb.jpg "00_-_topside.jpg")](img/uf896/00_-_topside.jpg)
 
+
 # HandsomeMod router operating system for "OpenStick" UF896.
 
 This repository is a fork of the ["`uf896`"-branch](https://github.com/kirdesde/Handsomemod/tree/uf896) of "[kirdesde/Handsomemod](https://github.com/kirdesde/Handsomemod/)", which itself is based on "[HandsomeMod/HandsomeMod](https://github.com/HandsomeMod/HandsomeMod/)".
@@ -18,6 +19,7 @@ The purpose of this repository is to have a place for my modifications and fixes
 </details>
 
 It is based on [OpenWrt 21.02](https://openwrt.org/releases/21.02/) and heavily modified. It uses a [Linux kernel](https://kernel.org/) version 5.10.33.
+
 
 ## Building
 
@@ -52,6 +54,7 @@ To build the firmware for the UF896 from this repository, use the following step
 9. Build the firmware image: `make`.
 
 For more build options and troubleshooting, refer to the [OpenWrt build system usage](https://openwrt.org/docs/guide-developer/toolchain/use-buildsystem) and other [documentation at OpenWrt.org](https://openwrt.org/docs/).
+
 
 ## Installing
 
@@ -98,16 +101,17 @@ If that is given, proceed:
 11. Please note, it's also part of the handsome feeds utils to setup and activate a default wifi AP (unencrypted). You can disable this after the last reboot (or disable it in the build config)
 
 
-
 ## State of this repository
 
 This is work in progress and might not work as expected. The main work to make this work has been carried out by the upstream projects "[kirdesde/Handsomemod](https://github.com/kirdesde/Handsomemod/)" and "[HandsomeMod/HandsomeMod](https://github.com/HandsomeMod/HandsomeMod/)", many thanks to them.
+
 
 ## License
 
 HandsomeMod itself (i.e. the code that is directly provided by the HandsomeMod repositories) is licensed under [GPL-2.0](LICENSES/GPL-2.0).
 
 Building a HandsomeMod firmware might pull in other, external software, which might have it's own licensing.
+
 
 ## Original upstream README
 
