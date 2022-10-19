@@ -63,6 +63,12 @@ For more build options and troubleshooting, refer to the [OpenWrt build system u
 
 Carry out the following from a computer where the device is connected to via USB.
 
+### Prerequisites:
+
+***Have [OpenStick](https://github.com/OpenStick/OpenStick) installed (or at least the partitions prepared for it)**, the images generate here assume that the device has been prepared for OpenStick operating system before!*
+
+*More detailed instructions on this step hopefully soon.*
+
 ### Pre-cautions work:
 
 1. Before conneting the device, make sure that there is currently no other device in fastboot mode connected, otherwise you can damage the other device:  
